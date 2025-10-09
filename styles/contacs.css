@@ -1,6 +1,7 @@
 .contacts {
-  padding: 55px 20px 63px;
+  padding: 55px 0px 63px;
   background-color: var(--bg-main);
+  text-align: center;
 }
 
 .contacts-title {
@@ -9,23 +10,24 @@
   color: var(--color-main-black);
 }
 
-.contacts-button {
+.button-link {
+  font-style: 24px;
+  font-weight: 500;
+  color: var(--bg-main);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   width: 210px;
   height: 42px;
   background-color: var(--color-main-black);
   border: none;
   border-radius: 21px;
-  margin: 75px 0 35px;
+  margin: 75px auto 35px;
 }
 
-.contacts-button:hover {
+.button-link:hover {
   opacity: .8;
-}
-
-.button-link {
-  font-style: 24px;
-  font-weight: 500;
-  color: var(--bg-main);
 }
 
 .socials {
@@ -50,7 +52,6 @@
   width: 260px;
   margin: 35px auto 0;
   color: var(--font-color-grey);
-  margin: 35px 0 0 0;
   font-weight: 500;
   font-size: 16px;
 }
